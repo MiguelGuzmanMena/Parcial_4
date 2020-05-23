@@ -68,9 +68,9 @@ public class ProductoBLL
         ProductoDSTableAdapters.ProductosTableAdapter adaptador = new ProductoDSTableAdapters.ProductosTableAdapter();
         adaptador.Delete(Id_Producto);
     }
-    public void UpdateProducto(int IdProducto, string nombreproducto)
-    {
-        ProductoDSTableAdapters.ProductosTableAdapter adaptador = new ProductoDSTableAdapters.ProductosTableAdapter();
-        adaptador.Update(IdProducto, nombreproducto);
-    }
+    //public void UpdateProducto(int Id_Producto, string nombre_producto)
+    //{
+    //    ProductoDSTableAdapters.ProductosTableAdapter adaptador = new ProductoDSTableAdapters.ProductosTableAdapter();
+    //    adaptador.Update(Id_Producto, nombre_producto);
+    //}
 }
